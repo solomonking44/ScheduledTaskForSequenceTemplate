@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="ScheduledTask" groupId="com.example.task" version="1.0.0" type="synapse/task" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/tasks/ScheduledTask.xml</file>
+    </artifact>
+    <artifact name="ScheduledTaskSequence" groupId="com.example.template" version="1.0.0" type="synapse/sequenceTemplate" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/templates/ScheduledTaskSequence.xml</file>
+    </artifact>
+</artifacts>

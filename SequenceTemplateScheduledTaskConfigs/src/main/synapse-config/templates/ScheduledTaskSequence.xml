@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template name="ScheduledTaskSequence" xmlns="http://ws.apache.org/ns/synapse">
+    <parameter isMandatory="false" name="msg"/>
+    <sequence>
+        <log level="custom">
+            <property name="message" value="The task is only running the sequence template"/>
+        </log>
+    </sequence>
+</template>

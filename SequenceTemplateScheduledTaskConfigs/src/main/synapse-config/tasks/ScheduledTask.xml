@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<task class="org.apache.synapse.startup.tasks.TemplateMessageExecutor" group="synapse.simple.quartz" name="ScheduledTask" xmlns="http://ws.apache.org/ns/synapse">
+    <trigger interval="5"/>
+    <property name="templateParams" xmlns:task="http://www.wso2.org/products/wso2commons/tasks">
+        <request xmlns=""/>
+    </property>
+    <property name="templateKey" value="ScheduledTaskSequence" xmlns:task="http://www.wso2.org/products/wso2commons/tasks"/>
+</task>
